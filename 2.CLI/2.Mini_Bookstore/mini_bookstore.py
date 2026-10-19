@@ -1,20 +1,21 @@
 #-------------------------------------------------------
 #                       v1.2.0 notes
-# you can now choose how much pages you want to read.
+# you can now choose how many pages you want to read.
 # added colours to the terminal page.
-# added a few comment lines for more opacity.
+# added a few comment lines for better readability.
+# will be updated frequently like all of the other GUI and CLI projects.
 #-------------------------------------------------------
 
 # importlar
-from colorama import Back,Fore,Style
+from colorama import Back, Fore, Style
 
 #Giriş
-print(Fore.BLUE+"Kütüphaneye hoşgeldiniz!")
+print(Fore.BLUE+"Kütüphaneye hoş geldiniz!")
 
 #class ve def ler
 class Kitap:
     def __init__(self,kitap_adi,sayfa_sayisi,yazar):
-        print("kitaplar İnceleniyor Lütfen Bekleyiniz...")
+        print("kitaplar inceleniyor, Lütfen Bekleyiniz...")
         self.kitap_adi=kitap_adi
         self.sayfa_sayisi=sayfa_sayisi
         self.yazar=yazar
