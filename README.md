@@ -1,4 +1,4 @@
-# 🐍 Python Mini Projects / Python Mini Projeler
+# 🐍 Python Mini Projects(New Projects Will Be Added Frequently). / Python Mini Projeler(Sık Sık Proje Eklemesi Yapılacaktır).
 
 <div align="center">
   <img src="https://github.com/TycianN.png" width="80" alt="TycianN">
