@@ -1,0 +1,1 @@
+#My plan is to start adding GUI projects when I learn tkinter fully. Wait for the updates and thanks for your patience!
