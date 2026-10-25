@@ -1,3 +1,6 @@
+#importlar
+import random
+
 # --- 1. Program Başlığı ---
 program_ad = "Akıllı Karşılama ve Kimlik Oluşturucu"
 versiyon = 1.0
@@ -28,8 +31,9 @@ print(mesaj)
 # - Adın küçük ilk 2 harfi
 # - Soyadın büyük son 2 harfi
 # - Doğum yılı
-# - Özel karakter: '!'
-sifre_onerisi = ad[:2].lower() + soyad[-2:].upper() + dogum_yili + "!"
+# - Özel karakter: '!,?,&,'
+ozel_karakter_secici = random.chose["!","?","&"]
+sifre_onerisi = ad[:2].lower() + soyad[-2:].upper() + dogum_yili + ozel_karakter_secici
 kullanici_adi = f"{ad.lower()}_{dogum_yili}"
 
 print("-" * 30)
