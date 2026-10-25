@@ -32,7 +32,7 @@ print(mesaj)
 # - Soyadın büyük son 2 harfi
 # - Doğum yılı
 # - Özel karakter: '!,?,&,'
-ozel_karakter_secici = random.chose["!","?","&"]
+ozel_karakter_secici = random.choice(["!","?","&"])
 sifre_onerisi = ad[:2].lower() + soyad[-2:].upper() + dogum_yili + ozel_karakter_secici
 kullanici_adi = f"{ad.lower()}_{dogum_yili}"
 
